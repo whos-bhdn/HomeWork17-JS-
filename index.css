@@ -1,0 +1,31 @@
+body{
+    background-color: darkblue;
+}
+.dataBox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 33%;
+    border: 1px solid darkcyan;
+    margin-bottom: 5px;
+}
+.box2{
+    justify-content: space-around;
+}
+.container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clock{
+
+    font-family: "DejaVu Sans";
+    color: azure;
+    margin-top: 30vh;
+    font-weight: bold;
+    font-size: 20vh;
+}
+.time{
+    font-size: 50px;
+}
